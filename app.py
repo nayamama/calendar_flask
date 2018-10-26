@@ -1,5 +1,6 @@
 import os
-from flask import Flask
+from flask import Flask, render_template, request, jsonify
+#from flask import Flask
 import configparser
 
 app = Flask(__name__)
@@ -9,7 +10,7 @@ config.read(os.path.abspath(os.path.join(".ini")))
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return render_template('index.html')
 
 
 @app.route('/<name>')
