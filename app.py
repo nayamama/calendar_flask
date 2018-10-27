@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, jsonify
 #from flask import Flask
 import configparser
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 config = configparser.ConfigParser()
 config.read(os.path.abspath(os.path.join(".ini")))
 
