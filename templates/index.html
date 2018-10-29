@@ -5,5 +5,15 @@
 {% endblock %}
 
 {% block content %}
-<h1>hello, world!</h1>
+    <div class="row">
+        <div class="col">
+            <a href="#"><i class="fa fa-caret-left" style="font-size:96px;margin-top:100%"></i></a>
+        </div>
+        <section class="col-7" style="margin-top: 5%;font-size: 200%">
+           {{ table|safe }}
+        </section>
+        <div class="col">
+            <a href="#"><i class="fa fa-caret-right" style="font-size:96px;margin-top:100%;margin-left: 90%"></i></a>
+        </div>
+    </div>
 {% endblock %}
