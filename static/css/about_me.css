@@ -9,13 +9,18 @@ section {
     border-radius: 15px;
     box-shadow: 5px 5px 5px grey;
     height: 400px;
+    width: 600px;
     padding: 20px;
-    margin: 40px;
     font-family: 'Chela One', cursive;
+    align-items: center;
 }
 
 ul.home_ul {
     font-size: larger;
+}
+
+td.sun_red {
+    color: red;
 }
 
 .msg_header {
