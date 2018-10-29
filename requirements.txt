@@ -12,3 +12,4 @@ jupyter-client==5.2.3
 jupyter-console==5.2.0
 jupyter-core==4.4.0
 gunicorn==19.9.0
+pytz==2018.6
